@@ -52,7 +52,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url('../images/background.jpg') center/cover no-repeat;
+  background: url('../images/background.jpg') center/cover no-repeat fixed;
   height: 90vh;
   display: flex;
   align-items: center;
@@ -73,13 +73,19 @@ body {
   z-index: 2;
   padding: 0 1rem;
 }
-.hero h1 {
-  font-size: 2.8rem;
+.hero-content h1 {
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+
+.hero-content h2 {
+  font-size: 2rem;
+  color: #dac8ae;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  margin-bottom: 1.5rem;
 }
 .btn {
   padding: 0.8rem 1.5rem;
